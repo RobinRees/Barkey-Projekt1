@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    border-bottom: 1px black solid;
+    margin: 0px 10px;
+    gap: 10px;
+    padding: 10px;
+}
+
+#right-Box {
+    margin-left: auto;
+    border-right: solid black 1px;
+    padding-right: 10px;
+}
+
+.nav-Button {
+    padding: 5px;
+}
+
+.nav-Button:hover {
+    background-color: rgba(189, 189, 189, 0.199);
+    border-radius: 3px;
+}
+
+.nav-Button-Special {
+    background-color: black;
+    padding: 5px;
+    color: white;
+    border-radius: 3px;
+    box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.466);
+}
+
+.nav-Button-Special:hover {
+    background-color: #000000a8
+}
