@@ -9,6 +9,7 @@ body {
     src: url(Material/Font/Inter.ttf);
 }
 
+
 /* Navigation */
 
 nav {
@@ -45,10 +46,46 @@ nav {
     color: white;
     border-radius: 3px;
     box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.466);
+    width: max-content;
 }
 
 .nav-Button-Special:hover {
     background-color: #000000a8;
     cursor: pointer;
+}
+
+/* Content */
+
+main {
+    max-width: 1000px;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 80px;
+}
+
+#firstBox-Info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.half-Box h1 {
+    font-size: 53px;
+    font-weight: 650;
+    margin: 0;
+}
+
+.half-Box p {
+    font-size: 19px;
+    font-weight: 320;
+    color: #666666;
+}
+
+
+#firstBox-Image {
+    background-image: url(Material/Box-1-Main-Material/teams-hero.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
