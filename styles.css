@@ -1,6 +1,12 @@
 body {
     margin: 0px;
     width: 100vw;
+    font-family: 'Inter Thin';
+}
+
+@font-face {
+    font-family: 'Inter Thin';
+    src: url(Material/Font/Inter.ttf);
 }
 
 nav {
@@ -37,3 +43,4 @@ nav {
 .nav-Button-Special:hover {
     background-color: #000000a8
 }
+
