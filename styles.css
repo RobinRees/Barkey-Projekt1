@@ -65,8 +65,15 @@ main {
 }
 
 #firstBox-Info {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 80px;
+}
+
+.half-Box {
+    flex-basis: 0;
+    flex-grow: 1;
+
 }
 
 .half-Box h1 {
@@ -89,3 +96,14 @@ main {
     background-position: center;
 }
 
+#iconBox {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 15px;
+    text-align: center;
+}
+
+#iconBox img {
+    height: 25px;
+    padding: 10px;
+}
