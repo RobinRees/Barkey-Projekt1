@@ -64,6 +64,8 @@ main {
     padding-top: 80px;
 }
 
+/* Ikoner */
+
 #firstBox-Info {
     display: flex;
     flex-direction: row;
@@ -82,7 +84,7 @@ main {
     margin: 0;
 }
 
-.half-Box p {
+.half-Box p, .usp-Top-Text p {
     font-size: 19px;
     font-weight: 320;
     color: #666666;
@@ -106,4 +108,14 @@ main {
 #iconBox img {
     height: 25px;
     padding: 10px;
+}
+
+/* USP boxar */
+
+#usp-Box1 {
+
+}
+
+.usp-Top-Text {
+    width: 50%;
 }
