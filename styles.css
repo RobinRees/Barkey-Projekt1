@@ -119,3 +119,7 @@ main {
 .usp-Top-Text {
     width: 50%;
 }
+
+.box-Person-Quote {
+    display: flex;
+}
