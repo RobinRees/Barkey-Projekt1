@@ -9,18 +9,24 @@ body {
     src: url(Material/Font/Inter.ttf);
 }
 
+/* Navigation */
+
 nav {
     display: flex;
     border-bottom: 1px black solid;
     margin: 0px 10px;
-    gap: 10px;
+    gap: 15px;
     padding: 10px;
+}
+
+#home-Barky{
+    width: 100px;
 }
 
 #right-Box {
     margin-left: auto;
     border-right: solid black 1px;
-    padding-right: 10px;
+    padding-right: 15px;
 }
 
 .nav-Button {
@@ -30,6 +36,7 @@ nav {
 .nav-Button:hover {
     background-color: rgba(189, 189, 189, 0.199);
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .nav-Button-Special {
@@ -41,6 +48,7 @@ nav {
 }
 
 .nav-Button-Special:hover {
-    background-color: #000000a8
+    background-color: #000000a8;
+    cursor: pointer;
 }
 
