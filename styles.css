@@ -13,6 +13,11 @@ body {
 /* Navigation */
 
 nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
     display: flex;
     border-bottom: 1px black solid;
     margin: 0px 10px;
