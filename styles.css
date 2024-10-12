@@ -78,18 +78,6 @@ main {
 
 }
 
-.half-Box h1 {
-    font-size: 53px;
-    font-weight: 650;
-    margin: 0;
-}
-
-.half-Box p, .usp-Top-Text p {
-    font-size: 19px;
-    font-weight: 320;
-    color: #666666;
-}
-
 
 #firstBox-Image {
     background-image: url(Material/Box-1-Main-Material/teams-hero.png);
@@ -112,14 +100,65 @@ main {
 
 /* USP boxar */
 
-#usp-Box1 {
-
-}
 
 .usp-Top-Text {
-    width: 50%;
+    max-width: 500px;
 }
 
 .box-Person-Quote {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.box-Person-Quote img {
+    width: 48px;
+    height: 48px;
+}
+
+.usp-Img {
+    width: 100%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); 
+}
+
+/* Fonts and Pharagraphs */
+
+.half-Box p, .usp-Top-Text p {
+    font-size: 18px;
+    font-weight: 320;
+    color: #666666;
+    line-height: 1.5;
+    
+}
+
+.half-Box h1 {
+    font-size: 53px;
+    font-weight: 650;
+    margin: 0;
+}
+
+.usp-Top-Text h2 {
+    font-size: 36px;   
+    font-weight: 650;
+}
+
+.gray-Quote-Text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 550;
+    margin: 30px 8px;
+    color:  #7f7f7f;
+}
+
+.name-Text-Quote {
+    font-size: 18px;
+    font-weight: 550;
+    margin: 0;
+}
+
+.from-Text-Quote {
+    font-size: 15px;
+    color: #999999;
+    margin: 0;
+}
+
