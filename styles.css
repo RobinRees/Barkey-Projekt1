@@ -131,7 +131,7 @@ main {
 
 /* Fonts Size and Pharagraphs */
 
-.half-Box p, .usp-Top-Text p {
+.half-Box p, .usp-Top-Text p, #tabell-Text p {
     font-size: 18px;
     font-weight: 320;
     color: #666666;
@@ -146,7 +146,7 @@ main {
     margin: 0;
 }
 
-.usp-Top-Text h2 {
+.usp-Top-Text h2, #tabell-Text h2 {
     font-size: 36px;   
     font-weight: 650;
     margin: 0px;
