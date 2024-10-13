@@ -233,9 +233,12 @@ main {
     text-align: center;
 }
 
+#left-Text-Box {
+    text-align: left;
+}
+
 .rating-Flexbox {
     display: flex;
-    gap: 60px;
 }
 
 .rating-Flexgrow-Box {
@@ -245,4 +248,12 @@ main {
 
 #rating-Img {
     width: 100%;
+}
+
+.rating-Flexgrow-Box {
+    border-right: 1px solid #e5e5e5;
+}
+
+.rating-Flexgrow-Box:last-child, #left-Text-Box {
+    border-right: none;
 }
