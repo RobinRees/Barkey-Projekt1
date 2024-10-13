@@ -196,7 +196,7 @@ main {
     margin-left: auto;
 }
 
-#container-With-List .nav-Button-Special {
+#container-With-List .nav-Button-Special, #rating-Box .nav-Button-Special{
     margin-left: auto;
     margin-right: auto;
 }
@@ -225,4 +225,24 @@ main {
 .tabell-Row img {
     height: 16px;
     width: 16px;
+}
+
+/* Rating box */
+
+#rating-Box {
+    text-align: center;
+}
+
+.rating-Flexbox {
+    display: flex;
+    gap: 60px;
+}
+
+.rating-Flexgrow-Box {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+#rating-Img {
+    width: 100%;
 }
