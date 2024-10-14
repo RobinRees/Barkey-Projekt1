@@ -131,13 +131,12 @@ main {
 
 /* Fonts Size and Pharagraphs */
 
-.half-Box p, .usp-Top-Text p, #tabell-Text p {
+.lightgray-small-Paragraph {
     font-size: 18px;
     font-weight: 320;
     color: #666666;
     line-height: 1.5;
-    margin-top: 10px;
-    
+    margin-top: 10px;    
 }
 
 .half-Box h1 {
@@ -150,6 +149,11 @@ main {
     font-size: 36px;   
     font-weight: 650;
     margin: 0px;
+}
+
+#rating-Box h2 {
+    font-size: 36px;   
+    font-weight: 650;
 }
 
 .gray-Quote-Text {
@@ -176,6 +180,48 @@ main {
     font-size: 16px;
 }
 
+#rating-Box h3 {
+    font-size: 24px;
+    font-weight: 650;
+}
+
+.rating-Link {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.percentage-Font-Style {
+    font-size: 53px;
+    margin-bottom: 0;
+    color:  #7f7f7f;
+}
+
+#gap h3 {
+    margin-bottom: 10px;
+}
+
+#unique-Paragraph {
+    margin-top: 0;
+    font-size: 13;
+    line-height: 1.5;
+}
+
+#unique-Paragraph span {
+    text-decoration: underline;
+}
+
+#rating-Box-Title p {
+    margin-top: 0;
+}
+
+#rating-Box-Title h2 {
+    margin-bottom: 10px;
+}
+
+#dogs-Love-Us-Text {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
 
 /* Container with List */
 
@@ -233,17 +279,26 @@ main {
     text-align: center;
 }
 
+#rating-Box-Title {
+    margin-bottom: 50px;
+}
+
 #left-Text-Box {
     text-align: left;
 }
 
 .rating-Flexbox {
     display: flex;
+    margin-bottom: 50px;
 }
 
 .rating-Flexgrow-Box {
     flex-grow: 1;
     flex-basis: 0;
+}
+
+#gap {
+    gap: 40px;
 }
 
 #rating-Img {
@@ -256,4 +311,17 @@ main {
 
 .rating-Flexgrow-Box:last-child, #left-Text-Box {
     border-right: none;
+}
+
+#middle-Rating-Box {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#left-Rating-Box {
+    padding-right: 15px;
+}
+
+#right-Rating-Box {
+    padding-left: 15px;
 }
