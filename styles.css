@@ -337,6 +337,12 @@ h2 {
 
 /* Footer */
 
+#line-Above-Footer {
+    width: 100vw;
+    margin-top: 50px;
+    border-bottom: 1px #e5e5e5 solid;
+}
+
 footer {
     margin-top: 70px;
     margin-bottom: 70px;
@@ -344,7 +350,6 @@ footer {
     max-width: 1200px;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
-    border-top: 1px #e5e5e5 solid;
     margin-left: auto;
     margin-right: auto;
     gap: 40px;
