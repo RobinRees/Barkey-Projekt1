@@ -32,7 +32,7 @@ nav {
 #right-Box {
     margin-left: auto;
     border-right: solid #e5e5e5 1px;
-    padding-right: 15px;
+    padding-right: 15px; /* BUG - Måste fixas */
 }
 
 .nav-Button {
