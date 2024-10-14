@@ -54,7 +54,7 @@ nav {
     width: max-content;
 }
 
-.nav-Button-Special:hover {
+#nav-Button-Special:hover, .barky-Button:hover {
     background-color: #000000a8;
     cursor: pointer;
 }
