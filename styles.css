@@ -70,6 +70,89 @@ nav {
 
 }
 
+/* Dropdown */
+
+.nav-Button {
+    position: relative;
+}
+
+.hamburger-Submenu {
+    display: none;
+    position: absolute;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    width: 150px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); 
+    z-index: 1;
+}
+
+
+.hamburger-Submenu a {
+    text-decoration: none;
+    color: black;
+    padding: 7px 5px;
+    margin: 3px;
+    font-weight: 450;
+}
+
+.hamburger-Submenu p {
+    padding: 7px 5px;
+    margin: 3px;
+    margin-top: 2px;
+    padding-top: 2px;
+    color: #666666;
+    font-size: 11px;
+}
+
+.hamburger-Submenu p span {
+    text-decoration: underline;
+}
+
+.nav-Button:hover .hamburger-Submenu {
+    display: flex;
+}
+
+.hamburger-Submenu a:hover, .hamburger-Submenu div:hover  {
+    background-color: rgba(189, 189, 189, 0.199);
+}
+
+.hamburger-Submenu-Special {
+    display: flex;
+    position: absolute;
+    left: 0;
+    flex-direction: column;
+    background-color: white;
+    width: 280px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); 
+    z-index: 1;
+}
+
+.submenu-Special {
+    display: flex;
+    align-items: center;
+}
+
+.submenu-Special img {
+    width: 25px;
+    height: 25px;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.submenu-Special-Text h4 {
+    font-size: 15px;
+}
+
+.submenu-Special-Text p {
+    font-size: 12px;
+    font-weight: 450;
+}
+
 /* Content */
 
 main {
@@ -197,6 +280,11 @@ h2 {
 .rating-Link {
     text-decoration: underline;
     font-weight: 500;
+}
+
+.rating-Link:hover {
+    color: #087fe7;
+    text-decoration-color: black;
 }
 
 .percentage-Font-Style {
