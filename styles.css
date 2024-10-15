@@ -9,61 +9,6 @@ body {
     src: url(Material/Font/Inter.ttf);
 }
 
-/* Fonts Size and Pharagraphs */
-
-h1 {
-    font-size: 53px;
-    font-weight: 700;
-    margin: 0;
-    line-height: 1.1;
-}
-
-h2 {
-    font-size: 36px;   
-    font-weight: 700;
-    margin: 0;
-}
-
-h3 {
-    font-size: 24px;
-    font-weight: 650;
-}
-
-p {
-    font-size: 18px;
-    font-weight: 450;
-    color: #666666;
-    line-height: 1.4;
-    margin-top: 10px;    
-}
-
-.quote {
-    text-align: center;
-    font-size: 36px;
-    font-weight: 600;
-    margin: 30px 8px;
-    color:  #979797;
-    line-height: 1.2;
-}
-
-.percentage {
-    font-size: 53px;
-    margin-bottom: 0;
-    color:  #7f7f7f;
-}
-
-.name-Text-Quote {
-    color: black;
-    font-size: 18px;
-    font-weight: 550;
-    margin: 0;
-}
-
-.from-Text-Quote {
-    font-size: 15px;
-    color: #999999;
-    margin: 0;
-}
 
 /* Navigation */
 
@@ -212,8 +157,6 @@ main {
 #firstBox-Info {
     display: flex;
     flex-direction: row;
-    padding-top: 70px;
-    padding-bottom: 70px;
 }
 
 .half-Box {
@@ -236,16 +179,14 @@ main {
     border-bottom: 1px solid #e5e5e5;
     padding: 15px;
     text-align: center;
-    margin-bottom: 70px;
 }
 
 #iconBox img {
     height: 25px;
-    padding: 12px;
+    padding: 10px;
 }
 
 /* USP boxar */
-
 
 
 .usp-Top-Text {
@@ -257,7 +198,6 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 70px;
 }
 
 .box-Person-Quote img {
@@ -300,6 +240,11 @@ main {
     background-color: #000000a8;
     cursor: pointer;
 }
+
+/* Fonts Size and Pharagraphs */
+
+
+
 
 /* Container with List */
 
