@@ -20,7 +20,7 @@ nav {
     background-color: white;
     display: flex;
     border-bottom: 1px #e5e5e5 solid;
-    margin: 0px 20px;
+    margin: 0px 10px;
     gap: 15px;
     padding: 10px;
 }
@@ -29,7 +29,7 @@ nav {
     width: 100px;
 }
 
-#nav-Margin-Right {
+#right-Box {
     margin-left: auto;
     border-right: solid #e5e5e5 1px;
     padding-right: 15px; /* BUG - Måste fixas */
@@ -43,6 +43,31 @@ nav {
     background-color: rgba(189, 189, 189, 0.199);
     border-radius: 3px;
     cursor: pointer;
+}
+
+#nav-Button-Special {
+    background-color: black;
+    padding: 3px 5px;
+    color: white;
+    border-radius: 3px;
+    box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.2);
+    width: max-content;
+}
+
+#nav-Button-Special:hover, .barky-Button:hover {
+    background-color: #000000a8;
+    cursor: pointer;
+}
+
+.barky-Button {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.2);
+    width: max-content;
+    font-weight: 550;
+
 }
 
 /* Dropdown */
@@ -152,11 +177,13 @@ main {
     padding-top: 80px;
 }
 
-/* First Box */
+/* Ikoner */
 
 #firstBox-Info {
     display: flex;
     flex-direction: row;
+    margin-top: 70px;
+    margin-bottom: 80px;
 }
 
 .half-Box {
@@ -165,14 +192,13 @@ main {
 
 }
 
+
 #firstBox-Image {
     background-image: url(Material/Box-1-Main-Material/teams-hero.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
-
-/* Ikoner */
 
 #iconBox {
     border-top: 1px solid #e5e5e5;
@@ -188,11 +214,13 @@ main {
 
 /* USP boxar */
 
+.usp-Content {
+    margin-top: 80px;
+}
 
 .usp-Top-Text {
     max-width: 500px;
 }
-
 
 .box-Person-Quote {
     display: flex;
@@ -209,41 +237,120 @@ main {
     width: 100%;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); 
 }
-/* Barky-Button */
-
-#barky-Button-Special {
-    background-color: black;
-    padding: 3px 5px;
-    color: white;
-    border-radius: 3px;
-    box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.2);
-    width: max-content;
-}
-
-.barky-Button {
-    background-color: black;
-    padding: 10px;
-    color: white;
-    border-radius: 5px;
-    box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.2);
-    width: max-content;
-    font-weight: 550;
-
-}
-
-#container-With-List .barky-Button, #rating-Box .barky-Button{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#barky-Button-Special:hover, .barky-Button:hover {
-    background-color: #000000a8;
-    cursor: pointer;
-}
 
 /* Fonts Size and Pharagraphs */
 
+.lightgray-small-Paragraph {
+    font-size: 18px;
+    font-weight: 320;
+    color: #666666;
+    line-height: 1.5;
+    margin-top: 10px;    
+}
 
+.half-Box h1 {
+    font-size: 53px;
+    font-weight: 650;
+    margin: 0;
+}
+
+.usp-Top-Text h2, #tabell-Text h2 {
+    margin: 0px;
+}
+
+h2 {
+    font-size: 36px;   
+    font-weight: 700;
+}
+
+.gray-Quote-Text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 550;
+    margin: 30px 8px;
+    color:  #7f7f7f;
+}
+
+.name-Text-Quote {
+    font-size: 18px;
+    font-weight: 550;
+    margin: 0;
+}
+
+.from-Text-Quote {
+    font-size: 15px;
+    color: #999999;
+    margin: 0;
+}
+
+.tabell-Row {
+    font-size: 16px;
+}
+
+#rating-Box h3 {
+    font-size: 24px;
+    font-weight: 650;
+}
+
+.rating-Link {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.rating-Link:hover {
+    color: #087fe7;
+    text-decoration-color: black;
+}
+
+.percentage-Font-Style {
+    font-size: 53px;
+    margin-bottom: 0;
+    color:  #7f7f7f;
+}
+
+#gap h3 {
+    margin-bottom: 10px;
+}
+
+#unique-Paragraph {
+    margin-top: 0;
+    font-size: 13;
+    line-height: 1.5;
+}
+
+#unique-Paragraph span {
+    text-decoration: underline;
+}
+
+#rating-Box-Title p {
+    margin-top: 0;
+}
+
+#rating-Box-Title h2 {
+    margin-bottom: 10px;
+}
+
+#dogs-Love-Us-Text {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+footer h3 {
+    font-size: 14px;
+    margin: 0px
+}
+
+.footer-Link {
+    font-size: 14px;
+    font-weight: 320;
+    color: #666666;
+    text-decoration: none;
+}
+
+#footer-Icon-Box p {
+    font-size: 13px;
+    line-height: 1.5;
+}
 
 
 /* Container with List */
@@ -251,6 +358,10 @@ main {
 #container-With-List {
     border-top: 1px solid #e5e5e5;
     border-bottom: 1px solid #e5e5e5;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
 }
 
@@ -261,10 +372,16 @@ main {
     margin-left: auto;
 }
 
+#container-With-List .barky-Button, #rating-Box .barky-Button{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #tabell-Container {
     max-width: 650px;
     background-color: #f3f1f1;
     border-radius: 6px;
+    margin-top: 50px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -292,12 +409,17 @@ main {
     text-align: center;
 }
 
+#rating-Box-Title {
+    margin-bottom: 50px;
+}
+
 #left-Text-Box {
     text-align: left;
 }
 
 .rating-Flexbox {
     display: flex;
+    margin-bottom: 50px;
 }
 
 .rating-Flexgrow-Box {
@@ -337,11 +459,15 @@ main {
 /* Footer */
 
 #line-Above-Footer {
+    width: 100%;
+    margin: 50px 20px; /* BuG kolla */
     border-bottom: 1px #e5e5e5 solid;
-    margin: 0px 20px;
 }
 
 footer {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-top: 40px;
     max-width: 1200px;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
@@ -364,4 +490,6 @@ footer {
 .footer-Svg {
     height: 20px;
     margin-right: 5px;
+    margin-top: 12px;
+    margin-bottom: 40px;
 }
