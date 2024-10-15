@@ -178,6 +178,7 @@ main {
 #firstBox-Info {
     display: flex;
     flex-direction: row;
+    margin-top: 70px;
     margin-bottom: 80px;
 }
 
