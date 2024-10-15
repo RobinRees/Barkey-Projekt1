@@ -111,6 +111,10 @@ nav {
     text-decoration: underline;
 }
 
+.hamburger-Submenu p span:hover {
+    color: #087fe7;
+}
+
 .nav-Button:hover .hamburger-Submenu, .nav-Button:hover .hamburger-Submenu-Special {
     display: flex;
 }
