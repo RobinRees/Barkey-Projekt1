@@ -2,6 +2,7 @@ body {
     margin: 0px;
     width: 100vw;
     font-family: 'Inter Thin';
+    background-color: #F9F9F9,
 }
 
 @font-face {
@@ -31,8 +32,8 @@ h3 {
 
 p {
     font-size: 18px;
-    font-weight: 450;
-    color: #666666;
+    font-weight: 400;
+    color: #8b8b8b;
     line-height: 1.4;
     margin-top: 10px;    
 }
@@ -258,6 +259,7 @@ main {
     align-items: center;
     justify-content: center;
     margin-bottom: 70px;
+    gap: 10px;
 }
 
 .box-Person-Quote img {
