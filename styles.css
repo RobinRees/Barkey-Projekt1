@@ -232,6 +232,24 @@ h2 {
     margin-bottom: 40px;
 }
 
+footer h3 {
+    font-size: 14px;
+    margin: 0px
+}
+
+.footer-Link {
+    font-size: 14px;
+    font-weight: 320;
+    color: #666666;
+    text-decoration: none;
+}
+
+#footer-Icon-Box p {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+
 /* Container with List */
 
 #container-With-List {
@@ -338,8 +356,8 @@ h2 {
 /* Footer */
 
 #line-Above-Footer {
-    width: 100vw;
-    margin-top: 50px;
+    width: 100%;
+    margin: 50px 20px; /* BuG kolla */
     border-bottom: 1px #e5e5e5 solid;
 }
 
@@ -359,6 +377,7 @@ footer {
 .footer-List-Box {
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 #brand-Svg {
