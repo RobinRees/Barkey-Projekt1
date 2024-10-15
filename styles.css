@@ -111,16 +111,16 @@ nav {
     text-decoration: underline;
 }
 
-.nav-Button:hover .hamburger-Submenu {
+.nav-Button:hover .hamburger-Submenu, .nav-Button:hover .hamburger-Submenu-Special {
     display: flex;
 }
 
-.hamburger-Submenu a:hover, .hamburger-Submenu div:hover  {
+.hamburger-Submenu a:hover, .submenu-Special:hover  {
     background-color: rgba(189, 189, 189, 0.199);
 }
 
 .hamburger-Submenu-Special {
-    display: flex;
+    display: none;
     position: absolute;
     left: 0;
     flex-direction: column;
@@ -134,23 +134,33 @@ nav {
 .submenu-Special {
     display: flex;
     align-items: center;
+    padding: 10px;
+    margin: 3px;
 }
 
 .submenu-Special img {
     width: 25px;
     height: 25px;
     padding: 4px;
-    border: 1px solid black;
+    border: 1px solid #dddddd;
     border-radius: 5px;
+}
+
+.submenu-Special-Text h4, .submenu-Special-Text p {
+    margin: 0;
+    margin-left: 10px;
 }
 
 .submenu-Special-Text h4 {
     font-size: 15px;
+    font-weight: 500;
+
 }
 
 .submenu-Special-Text p {
     font-size: 12px;
-    font-weight: 450;
+    font-weight: 400;
+    color: #666666;
 }
 
 /* Content */
