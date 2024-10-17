@@ -26,6 +26,7 @@ nav {
 }
 
 #home-Barky{
+    height: 18px;
     width: 100px;
 }
 
@@ -36,7 +37,8 @@ nav {
 }
 
 .nav-Button {
-    padding: 5px;
+    padding: 3px;
+    font-size: 13px;
 }
 
 .nav-Button:hover {
@@ -47,11 +49,16 @@ nav {
 
 #nav-Button-Special {
     background-color: black;
-    padding: 3px 5px;
+    padding: 3px 6px;
     color: white;
     border-radius: 3px;
     box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.2);
     width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    font-weight: 600;
 }
 
 #nav-Button-Special:hover, .barky-Button:hover {
@@ -73,6 +80,12 @@ nav {
 #hamburger {
     width: 20px;
     display: none;
+}
+
+#hamburger:hover {
+    background-color: rgba(189, 189, 189, 0.199);
+    border-radius: 3px;
+    cursor: pointer;
 }
 
 #hamburger img {
@@ -299,6 +312,10 @@ h2 {
     font-size: 16px;
 }
 
+.tabell-Row p:first-child {
+    color: #7f7f7f;
+}
+
 #rating-Box h3 {
     font-size: 24px;
     font-weight: 650;
@@ -522,9 +539,10 @@ footer {
 @media screen and (max-width: 1080px) {
 
     main {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
+
 
     #firstBox-Info {
         display: flex;
@@ -555,7 +573,7 @@ footer {
 
     #iconBox img {
         height: 25px;
-        padding: 0px 20px 20px;
+        padding: 0px 18px 20px;
     }
 
     #iconBox img:nth-child(7) {
@@ -614,6 +632,15 @@ footer {
 
 
 @media screen and (max-width: 600px) {
+
+    #nav-Button-Special {
+        display: none;
+    }
+
+    #hamburger {
+        margin-left: auto;
+    }
+
     .usp-Content {
         text-align: center;
     }
@@ -639,8 +666,4 @@ footer {
         padding-bottom: 40px;
     }
 
-    main {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
 }
