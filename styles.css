@@ -32,7 +32,7 @@ nav {
 #right-Box {
     margin-left: auto;
     border-right: solid #e5e5e5 1px;
-    padding-right: 15px; /* BUG - Måste fixas */
+    padding-right: 10px; /* BUG - Måste fixas */
 }
 
 .nav-Button {
@@ -68,6 +68,16 @@ nav {
     width: max-content;
     font-weight: 550;
 
+}
+
+#hamburger {
+    width: 20px;
+    display: none;
+}
+
+#hamburger img {
+    width: 100%;
+    object-fit: contain;
 }
 
 /* Dropdown */
@@ -177,7 +187,7 @@ main {
     padding-top: 80px;
 }
 
-/* Ikoner */
+/* First box */
 
 #firstBox-Info {
     display: flex;
@@ -200,16 +210,18 @@ main {
     background-position: center;
 }
 
+/* Ikoner */
+
 #iconBox {
     border-top: 1px solid #e5e5e5;
     border-bottom: 1px solid #e5e5e5;
-    padding: 15px;
     text-align: center;
+    padding: 30px 10px 10px;
 }
 
 #iconBox img {
     height: 25px;
-    padding: 10px;
+    padding: 0px 13px 20px;
 }
 
 /* USP boxar */
@@ -459,9 +471,10 @@ footer h3 {
 /* Footer */
 
 #line-Above-Footer {
-    width: 100%;
     margin: 50px 20px; /* BuG kolla */
     border-bottom: 1px #e5e5e5 solid;
+    margin: 0 10px;
+    padding-top: 70px;
 }
 
 footer {
@@ -492,4 +505,46 @@ footer {
     margin-right: 5px;
     margin-top: 12px;
     margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1080px) {
+    #firstBox-Info {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        text-align: center;
+        height: 500px; /* kanske Checka */
+    }
+
+    .half-Box .barky-Button {
+        margin: 30px auto;
+    }
+
+    .nav-Button {
+        display: none;
+    }
+
+    #nav-Button-Special {
+        margin-left: auto;
+    }
+
+    #hamburger {
+        display: flex;
+    }
+
+    /*Ikoner*/
+
+    #iconBox img {
+        height: 25px;
+        padding: 0px 20px 20px;
+    }
+
+    #iconBox img:nth-child(7) {
+        padding-left: 0px;
+    }
+
+    #iconBox img:last-child {
+        padding-right: 0px;
+    }
 }
