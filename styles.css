@@ -520,6 +520,12 @@ footer {
 }
 
 @media screen and (max-width: 1080px) {
+
+    main {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
     #firstBox-Info {
         display: flex;
         flex-direction: column-reverse;
@@ -603,5 +609,38 @@ footer {
 
     #footer-Barky {
         grid-area: 4 / 3 / 6 / 4;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .usp-Content {
+        text-align: center;
+    }
+
+    .usp-Top-Text {
+        max-width: 100%;
+    }
+
+    .gray-Quote-Text {
+        font-size: 26px;
+    }
+
+    .rating-Grid-One {
+        grid-template-columns: 1fr;
+    }
+
+    .rating-Flexbox {
+        flex-direction: column;
+    }
+
+    #rating-Grid-Two {
+        grid-template-columns: 1fr;
+        padding-bottom: 40px;
+    }
+
+    main {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
