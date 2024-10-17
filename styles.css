@@ -416,13 +416,32 @@ footer h3 {
 }
 
 /* Rating box */
-
 #rating-Box {
     text-align: center;
 }
 
 #rating-Box-Title {
     margin-bottom: 50px;
+}
+
+.rating-Grid-One {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.rating-Grid-One div {
+    border-right: #dddddd solid 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.rating-Grid-One div:first-child {
+    padding-left: none;
+}
+
+.rating-Grid-One div:last-child {
+    border-right: none;
+    padding-right: none;
 }
 
 #left-Text-Box {
@@ -447,26 +466,19 @@ footer h3 {
     width: 100%;
 }
 
-.rating-Flexgrow-Box {
-    border-right: 1px solid #e5e5e5;
+#rating-Grid-Two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.rating-Flexgrow-Box:last-child, #left-Text-Box {
+#rating-Grid-Two div {
+    border-right: #dddddd solid 1px;
+}
+
+#rating-Grid-Two div:last-child {
     border-right: none;
 }
 
-#middle-Rating-Box {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-#left-Rating-Box {
-    padding-right: 15px;
-}
-
-#right-Rating-Box {
-    padding-left: 15px;
-}
 
 /* Footer */
 
@@ -546,5 +558,50 @@ footer {
 
     #iconBox img:last-child {
         padding-right: 0px;
+    }
+
+    /* rating box */
+
+    .rating-Grid-One {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .rating-Grid-One div{
+        border-right: none;
+        padding-bottom: 20px;
+    }
+
+    #rating-Grid-Two {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #rating-Grid-Two div{
+        border-right: none;
+    }
+
+    footer {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, max-content);
+        padding: 30px;
+    }
+
+    #footer-Icon-Box {
+        grid-area: 1 / 1 / 2 / 3;
+    }
+
+    #footer-Company {
+        grid-area: 2 / 1 / 4 / 2;
+    }
+
+    #footer-Download {
+        grid-area: 2 / 3 / 4 / 4
+    }
+
+    #footer-Resources {
+        grid-area: 4 / 1 / 6 / 2;
+    }
+
+    #footer-Barky {
+        grid-area: 4 / 3 / 6 / 4;
     }
 }
