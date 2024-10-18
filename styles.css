@@ -244,13 +244,14 @@ main {
 }
 
 .usp-Top-Text {
-    max-width: 500px;
+    max-width: 450px;
 }
 
 .box-Person-Quote {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
 }
 
 .box-Person-Quote img {
@@ -265,8 +266,10 @@ main {
 
 /* Fonts Size and Pharagraphs */
 
+/* Colors #050505, #121212, #353535, #666666,
+ #7f7f7f, #999999,#e5e5e5,#f4f4f4och#087fe7 */ 
 .lightgray-small-Paragraph {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     color: #666666;
     line-height: 1.5;
@@ -286,18 +289,19 @@ main {
 
 h2 {
     font-size: 36px;   
-    font-weight: 700;
+    font-weight: 650;
 }
 
 .gray-Quote-Text {
     text-align: center;
     font-size: 36px;
-    font-weight: 550;
+    font-weight: 600;
     margin: 30px 8px;
-    color:  #7f7f7f;
+    color:  #999999;
 }
 
 .name-Text-Quote {
+    color: #121212;
     font-size: 18px;
     font-weight: 550;
     margin: 0;
@@ -310,7 +314,7 @@ h2 {
 }
 
 .tabell-Row {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .tabell-Row p:first-child {
@@ -335,7 +339,7 @@ h2 {
 .percentage-Font-Style {
     font-size: 53px;
     margin-bottom: 0;
-    color:  #7f7f7f;
+    color:  #666666;
 }
 
 #gap h3 {
