@@ -197,6 +197,7 @@ main {
     margin-right: auto;
     margin-left: auto;
     padding-top: 80px;
+    margin-bottom: 50px;
 }
 
 /* First box */
@@ -204,23 +205,18 @@ main {
 #firstBox-Info {
     display: flex;
     flex-direction: row;
-    margin-top: 70px;
-    margin-bottom: 80px;
+    
 }
 
 .half-Box {
     flex-basis: 0;
     flex-grow: 1;
-
 }
 
-
-#firstBox-Image {
-    background-image: url(Material/Box-1-Main-Material/teams-hero.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+.half-Box img{
+    width: 100%;
 }
+
 
 /* Ikoner */
 
@@ -228,6 +224,7 @@ main {
     border-top: 1px solid #e5e5e5;
     border-bottom: 1px solid #e5e5e5;
     text-align: center;
+    margin: 80px 0px;
     padding: 30px 10px 10px;
 }
 
@@ -239,7 +236,6 @@ main {
 /* USP boxar */
 
 .usp-Content {
-    margin-top: 80px;
     padding: 0px 10px;
 }
 
@@ -247,11 +243,21 @@ main {
     max-width: 450px;
 }
 
+.usp-Top-Text h2 {
+    margin-bottom: 0px;
+}
+
+.usp-Top-Text p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
 .box-Person-Quote {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
+    margin-bottom: 50px;
 }
 
 .box-Person-Quote img {
@@ -273,6 +279,8 @@ h1 {
     font-size: 53px;
     font-weight: 650;
     color: #050505;
+    line-height: 1.1;
+    margin-bottom: 0;
 }
 
 .paragraph-Gray-Bigger {
@@ -298,7 +306,7 @@ h2 {
     text-align: center;
     font-size: 36px;
     font-weight: 550;
-    margin: 30px 8px;
+    margin: 30px 10px;
     color:  #999999;
 }
 
@@ -334,7 +342,7 @@ h3 {
 .rating-Link {
     text-decoration: underline;
     font-size: 15px;
-    font-weight: 550;
+    font-weight: 500;
 }
 
 .rating-Link:hover {
@@ -343,10 +351,17 @@ h3 {
 }
 
 #unique-Paragraph {
+    margin-top: 5px;
     font-size: 15px;
     font-weight: 400;
     line-height: 1.5;
 }
+
+#left-Text-Box h3 {
+    margin-bottom: 0;
+}
+
+
 
 #unique-Paragraph span {
     text-decoration: underline;
@@ -383,18 +398,13 @@ footer h3 {
 #container-With-List {
     border-top: 1px solid #e5e5e5;
     border-bottom: 1px solid #e5e5e5;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
 
 }
 
 #tabell-Text {
     text-align: center;
     max-width: 650px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 70px auto 50px;
 }
 
 #container-With-List .barky-Button, #rating-Box .barky-Button{
@@ -407,9 +417,7 @@ footer h3 {
     padding: 15px 0px;
     background-color: #f3f1f1;
     border-radius: 6px;
-    margin-top: 50px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto 80px;
 }
 
 .tabell-Row {
@@ -435,10 +443,6 @@ footer h3 {
     padding: 0px 10px;
 }
 
-#rating-Box-Title {
-    margin-bottom: 50px;
-}
-
 .rating-Grid-One {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -448,6 +452,10 @@ footer h3 {
     border-right: #e5e5e5 solid 1px;
     padding-right: 15px;
     padding-left: 15px;
+}
+
+.rating-Grid-One div h3 {
+    margin-top: 0px;
 }
 
 .rating-Grid-One div:first-child {
@@ -463,9 +471,10 @@ footer h3 {
     text-align: left;
 }
 
-.rating-Flexbox {
+#rating-Flexbox {
     display: flex;
-    margin-bottom: 50px;
+    gap: 40px;
+    margin-bottom: 30px;
 }
 
 .rating-Flexgrow-Box {
@@ -473,9 +482,12 @@ footer h3 {
     flex-basis: 0;
 }
 
-#gap {
-    gap: 40px;
+#dogs-Love-Us-Text {
+    margin-top: 80px;
+    margin-bottom: 50px;
 }
+
+
 
 #rating-Img {
     width: 100%;
@@ -484,6 +496,7 @@ footer h3 {
 #rating-Grid-Two {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 50px;
 }
 
 #rating-Grid-Two div {
@@ -504,6 +517,21 @@ footer h3 {
     margin-top: 0;
 }
 
+#rating-Box-Title h2 {
+    margin-bottom: 0;
+    margin-top: 80px;
+}
+
+#rating-Box-Title p {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#rating-Special-Deal h2 {
+    margin-bottom: 0px;
+}
+
+
 
 /* Footer */
 
@@ -515,7 +543,7 @@ footer h3 {
 }
 
 footer {
-    margin-top: 70px;
+    margin-top: 50px;
     margin-bottom: 70px;
     padding-top: 40px;
     max-width: 1200px;
@@ -641,6 +669,10 @@ footer {
 
 @media screen and (max-width: 600px) {
 
+    nav {
+        border-bottom: none;
+    }
+
     #nav-Button-Special {
         display: none;
     }
@@ -665,7 +697,7 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    .rating-Flexbox {
+    #rating-Flexbox {
         flex-direction: column;
     }
 
